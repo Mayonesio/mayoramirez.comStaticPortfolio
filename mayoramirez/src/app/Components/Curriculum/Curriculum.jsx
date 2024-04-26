@@ -1,15 +1,15 @@
 
 import Dashboard from '../Dashboard/Dashboard';
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Curriculum.css';
-const curriculum = () => {
+const Curriculum = () => {
 
     const [expanded, setExpanded] = useState(false);
 
     const toggleSidebar = () => {
       setExpanded(!expanded);
     }
-    
+
   return (
     <div>
        <Dashboard expanded={expanded} onToggle={toggleSidebar} />
@@ -17,4 +17,4 @@ const curriculum = () => {
   )
 }
 
-export default curriculum
+export default Curriculum

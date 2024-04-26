@@ -28,7 +28,7 @@ function AboutMe() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img loading="lazy" width="647" height="486"
+                <image loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }}
                   src="/images/mataplantas.jpg" alt="mataplantas.com" />
@@ -60,9 +60,9 @@ function AboutMe() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                <image alt="Inbox user interface" loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  style={{ color: 'transparent' }} src="https://images.unsplash.com/photo-1599134842279-fe807d23316e" />
+                  style={{ color: 'transparent' }} src="/images/bluefitt.jpg" />
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ function AboutMe() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img loading="lazy" width="646" height="485"
+                <image loading="lazy" width="646" height="485"
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }}
                   src="/images/ecommerceHome.jpg" alt="can_help_banner" />
@@ -122,7 +122,7 @@ function AboutMe() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                <image alt="Inbox user interface" loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }} src="/images/inco.jpg" />
               </div>
