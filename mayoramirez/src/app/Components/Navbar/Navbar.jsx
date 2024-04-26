@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-
+import Link from 'next/link';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -35,10 +35,10 @@ const Navbar = () => {
 
                 {/* Navigation links */}
                 <div className={`lg:flex flex-col lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:space-x-4 lg:mt-0 mt-4 flex flex-col items-center text-xl`}>
-                    <a href="/" className="text-white px-4 py-2 hover:text-orange-600">Home</a>
-                    <a href="/home/about" className="text-white px-4 py-2 hover:text-orange-600">Proyectos</a>
-                    <a href="/home/formacion" className="text-white px-4 py-2 hover:text-orange-600">Formación</a>
-                    <a href="/home/contacto" className="text-white px-4 py-2 hover:text-orange-600">Contacto</a>
+                    <Link href="/" className="text-white px-4 py-2 hover:text-orange-600">Home</Link>
+                    <Link href="/home/about" className="text-white px-4 py-2 hover:text-orange-600">Proyectos</Link>
+                    <Link href="/home/formacion" className="text-white px-4 py-2 hover:text-orange-600">Formación</Link>
+                    <Link href="/home/contacto" className="text-white px-4 py-2 hover:text-orange-600">Contacto</Link>
                 </div>
             </div>
         </nav>

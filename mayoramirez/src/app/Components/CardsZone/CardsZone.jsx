@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const CardZone = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
@@ -10,7 +10,7 @@ const CardZone = () => {
       <div className="flex flex-col md:flex-row">
         {/* can help image */}
         <div className="mr-0 md:mr-8 mb-6 md:mb-0">
-          <image className="w-1/2 md:w-full mx-auto" src="https://placeholder.pics/svg/400" alt="can_help_banner" />
+          <img className="w-1/2 md:w-full mx-auto" src="https://placeholder.pics/svg/400" alt="can_help_banner" />
         </div>
         {/* end can help image */}
 

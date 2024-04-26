@@ -1,6 +1,6 @@
 import React from 'react';
 import { MoreVertical, ChevronLast, ChevronFirst } from 'lucide-react';
-
+import Link from 'next/link';
 const Sidebar = ({ expanded, onToggle }) => {
   return (
     <div className={`sidebar ${expanded ? 'expanded' : ''}`}>

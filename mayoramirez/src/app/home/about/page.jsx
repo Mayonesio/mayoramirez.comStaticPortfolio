@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 function AboutMe() {
   return (
     <div>
@@ -18,17 +18,17 @@ function AboutMe() {
                     Trabajo desplegado de frontend, landing page con modo oscuro.
                   </p>
                   <div className="mt-6">
-                    <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                    <Link className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="https://geranios-9uwci2wrl-mayonesios-projects.vercel.app/">
                       Ver
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <image loading="lazy" width="647" height="486"
+                <img loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }}
                   src="/images/mataplantas.jpg" alt="mataplantas.com" />
@@ -50,17 +50,17 @@ function AboutMe() {
                     Completa pagina web de la empresa Bluefitt International, página de presentación de la empresa con cataglogo de productos.
                   </p>
                   <div className="mt-6">
-                    <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                    <Link className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="https://www.bluefitt.com">
                       Visítala
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <image alt="Inbox user interface" loading="lazy" width="647" height="486"
+                <img alt="Inbox user interface" loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }} src="/images/bluefitt.jpg" />
               </div>
@@ -81,17 +81,17 @@ function AboutMe() {
                     Proyecto grupal de una aplicacion web consumiendo una API propia y consecciones especializadas para personas mayores
                   </p>
                   <div className="mt-6">
-                    <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                    <Link className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="https://golden-hands.netlify.app/">
                       Visitar
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <image loading="lazy" width="646" height="485"
+                <img loading="lazy" width="646" height="485"
                   className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }}
                   src="/images/ecommerceHome.jpg" alt="can_help_banner" />
@@ -112,17 +112,17 @@ function AboutMe() {
                     Aplicacion web classroom con control de usuarios y bases de datos con MySQL.
                   </p>
                   <div className="mt-6">
-                    <a className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                    <Link className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                       href="https://inco-classroom-front-ruby.vercel.app/">
                       Visítala
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <image alt="Inbox user interface" loading="lazy" width="647" height="486"
+                <img alt="Inbox user interface" loading="lazy" width="647" height="486"
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                   style={{ color: 'transparent' }} src="/images/inco.jpg" />
               </div>

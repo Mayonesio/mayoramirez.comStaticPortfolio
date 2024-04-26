@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -17,12 +17,12 @@ function Hero() {
               We create beautiful and functional websites for businesses of all sizes.
             </p>
             <div className="flex gap-2">
-              <a href="/home" className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Iniciar</a>
-              <a href="/home/contacto" className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md">Contactar</a>
+              <Link href="/home" className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Iniciar</Link>
+              <Link href="/home/contacto" className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-md">Contactar</Link>
             </div>
           </div>
           <div className="md:w-1/2 lg:w-1/3 mt-8 md:mt-0">
-            <image src="/images/portadaweb.jpg" alt="Hero Image" className="rounded-lg shadow-lg" />
+            <img src="/images/portadaweb.jpg" alt="Hero Image" className="rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
