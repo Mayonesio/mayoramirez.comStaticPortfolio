@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-black p-4">
+        <nav className="bg-black p-4 fixed top-0 w-full z-10">
             <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
                 <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">Mayo Ramírez</div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                 {/* Navigation links */}
                 <div className={`lg:flex flex-col lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:space-x-4 lg:mt-0 mt-4 flex flex-col items-center text-xl`}>
-                    <Link href="/" className="text-white px-4 py-2 hover:text-orange-600">Home</Link>
+                    <Link href="/home/Resume" className="text-white px-4 py-2 hover:text-orange-600">CV</Link>
                     <Link href="/home/about" className="text-white px-4 py-2 hover:text-orange-600">Proyectos</Link>
                     <Link href="/home/formacion" className="text-white px-4 py-2 hover:text-orange-600">Formación</Link>
                     <Link href="/home/contacto" className="text-white px-4 py-2 hover:text-orange-600">Contacto</Link>
